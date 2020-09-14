@@ -539,3 +539,21 @@ a:hover {
   width: 62px !important;
   padding-left: 10px;
 }
+.about_Q{
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: italic;
+  left: 300px;
+  top: 350px;
+  text-decoration: underline;
+}
+.about_Q a{
+  font-size: 24px;
+  color: #0a137c;
+  text-decoration: none;
+}
+.about_Q a:hover{
+  color: #206de0;
+  text-decoration: none;
+}
