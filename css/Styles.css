@@ -1,0 +1,541 @@
+/* ------------------------ main elements ------------------------------ */
+body {
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ddf3f5;
+  text-decoration: none;
+}
+
+/* ------------------------ shapes & borders ------------------------------ */
+.border1 {
+  height: 20px;
+  width: 50%;
+  /* margin-left: 280px; */
+  position: absolute;
+  top: -50px;
+  left: 320px;
+}
+
+.border2 {
+  height: 20px;
+  width: 50%;
+  position: absolute;
+  top: 100px;
+  left: 320px;
+}
+
+/* ------------------------ navbar ------------------------------ */
+.navbar-custom {
+  background: transparent !important;
+  transition: 0.5s ease;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar-custom.scrolled {
+  background: #21243d !important;
+  /* background-color: #0f4c75;#1C2331 */
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 32px;
+  font-style: italic;
+  padding-left: 15px;
+}
+
+.navbar-custom a:hover {
+  color: #b2ebf2 !important;
+}
+
+.navbar-custom .dropdown .dropdown-menu {
+  background-color: #21243d;
+}
+
+.navbar-custom .dropdown .dropdown-menu a {
+  color: white;
+  background-color: #21243d;
+}
+
+.navbar-custom .nav-item i {
+  font-size: 18px;
+  color: white;
+}
+
+.Social-Icons {
+  padding-left: 20px;
+  /* display: inline !important; */
+}
+
+.navbar-custom .navbar-collapse .Social-Icons a {
+  color: white;
+  display: inline;
+  padding: 10px;
+}
+
+.btn-secondary:hover {
+  color: #b2ebf2 !important;
+}
+
+.form-inline {
+  display: inline !important;
+}
+
+.scrollspy {
+  display: block;
+  position: absolute;
+  top: 58px;
+  left: 420px;
+  background: transparent !important;
+  transition: 0.5s ease;
+  -moz-border-radius-bottomright: 40px;
+  -webkit-border-bottom-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  -moz-border-radius-bottomleft: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  /* -moz-border-radius-topleft: 40px;
+  -webkit-border-top-left-radius: 40px;
+  border-top-left-radius: 40px;
+  -moz-border-radius-topright: 40px;
+  -webkit-border-top-right-radius: 40px;
+  border-top-right-radius: 40px; */
+}
+
+.scrollspy.scrolled {
+  background: #21243d !important;
+}
+
+.scrollspy a {
+  color: white !important;
+}
+
+.scrollspy .nav-tabs {
+  border-bottom: 0;
+}
+
+.scrollspy .nav-tabs .nav-link.active {
+  background: transparent;
+  color: #fff !important;
+  -moz-border-radius-bottomright: 40px;
+  -webkit-border-bottom-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  -moz-border-radius-bottomleft: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  /* -moz-border-radius-topleft: 40px;
+  -webkit-border-top-left-radius: 40px;
+  border-top-left-radius: 40px;
+  -moz-border-radius-topright: 40px;
+  -webkit-border-top-right-radius: 40px;
+  border-top-right-radius: 40px; */
+}
+
+.scrollspy .nav-tabs .nav-link.active.scrolled {
+  background: #f1f3f8;
+  color: #000 !important;
+}
+
+.scrollspy .nav-tabs a:hover {
+  -moz-border-radius-bottomright: 40px;
+  -webkit-border-bottom-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  -moz-border-radius-bottomleft: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+/* .navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.navbar-nav .nav-link {
+  color: #f9f9f9;
+} */
+/* ------------------------ Divs ------------------------------ */
+.Introduce-part {
+  background-color: #EAF6F6;
+  position: relative;
+  height: 1120px;
+  /* padding-top: 65px; */
+}
+
+.bg-img1 {
+  background-image: url("../Images & Files/Aiplane-Wing-shadow2.jpg");
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.Slide-Gallery{
+  width: 50%;
+  position: absolute;
+  top: 705px;
+  left: 40px;
+  border: solid;
+  border-radius: 8px;
+  border-color: #0e0f33;
+}
+}
+.Slide-Gallery p{
+  font-size: 14px;
+}
+.Slide-Gallery .album{
+  max-width: 700px;
+  max-height: 400px;
+  filter: blur(.5px);
+  -webkit-filter: blur(.8px);
+}
+
+
+.Education {
+  /* background-image: url("pilot.jpg");
+  background-repeat: no-repeat; */
+  padding-top: 300px;
+  padding-bottom: 200px;
+  /* height: 2200px; */
+  background-color: #f1f3f8;
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+
+.bg-img2 {
+  float: left;
+  margin: 0 auto 100px 20px;
+}
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 30%;
+  -moz-column-width: 150%;
+  column-width: 40%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 3500ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+
+.Airline {
+  position: relative;
+  height: 1020px;
+}
+
+.Airline-li-bg {
+  height: 920px;
+  padding-top: 55px;
+  padding-left: 34px;
+  background-image: url("../Images & Files/aviation-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.logo-flag {
+  position: absolute;
+  top: 880px;
+  /* height: 500px; */
+}
+
+.footer {
+  background-color: #111d5e;
+  position: relative;
+  padding-top: 95px;
+  padding-left: 40px;
+  color: white;
+}
+
+.footer a:link {
+  color: white;
+}
+
+.footer a:visited {
+  color: white;
+}
+
+.footer a:hover {
+  color: #b2ebf2;
+  text-decoration: none;
+}
+
+/* ------------------------ texts ------------------------------ */
+.Titles {
+  position: absolute;
+  left: 140px;
+  top: 240px;
+  text-align: center;
+  color: white;
+  /* 191970 */
+  text-shadow: 4px 4px 7px #00087A;
+}
+
+.title1 {
+  font-size: 90px;
+  /* font-weight: 900; */
+  /* font-family: 'Playfair Display', serif; */
+  font-family: INAC_title;
+  width: 40%;
+  margin: auto auto 20px 335px;
+  color: #00087A;
+  text-shadow: 4px 4px 7px white;
+}
+
+.title2 {
+  font-size: 34px;
+  font-family: 'Noto Serif', serif;
+  /* font-weight: 200; */
+  width: 115%;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #00087A;
+  text-shadow: 4px 4px 7px white;
+}
+
+.title2 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.title2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.title2 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #00087A;
+  transform-origin: 0 0;
+}
+
+.title2 .line1 {
+  top: 0px;
+}
+
+.title2 .line2 {
+  bottom: 0;
+}
+
+.Courses {
+  float: right;
+  padding-top: 170px;
+  font-size: 22px;
+  text-shadow: 1px 1px 40px #00087A;
+}
+
+.airlines-list {
+  position: absolute;
+  padding-top: 70px;
+  font-size: 32px;
+  text-shadow: 1px 1px 40px gold;
+}
+
+/* ------------------------ footer links ------------------------------ */
+.links {
+  font-size: 19px;
+  position: relative;
+  /* height: 300px; */
+  margin: auto auto 200px;
+  padding-top: 50px;
+}
+
+.list1 {
+  /* position: absolute; */
+  width: 20%;
+  text-align: left;
+  line-height: 2.5;
+  margin-left: 500px;
+  list-style-type: none;
+  padding: 0;
+  /* margin-top: 50px; */
+  float: left;
+}
+
+.list2 {
+  /* position: absolute; */
+  width: 20%;
+  text-align: left;
+  line-height: 2.5;
+  margin-left: 900px;
+  /* margin-top: 50px; */
+  list-style-type: none;
+}
+
+.networks {
+  /* position: absolute; */
+  width: 40%;
+  margin: 100px auto 20px;
+  text-align: center;
+}
+
+.rights {
+  text-align: center;
+  padding-bottom: 30px;
+  width: 42%;
+  margin: auto;
+}
+
+/* ------------------------ images ------------------------------ */
+.wing1 {
+  position: absolute;
+  width: 40%;
+  right: 40px;
+  margin: auto;
+}
+
+.wing2 {
+  position: absolute;
+  width: 20%;
+  right: 150px;
+  top: 520px;
+}
+
+.Img1 {
+  position: absolute;
+  right: 490px;
+  bottom: 170px;
+}
+
+.Img2 {
+  position: absolute;
+  right: 510px;
+  bottom: 105px;
+}
+
+.Img3 {
+  position: absolute;
+  right: 535px;
+  bottom: 30px;
+}
+
+.airlines-logo {
+  padding-left: 100px;
+  width: 100%;
+  margin: auto;
+}
+
+.logo {
+  width: 150px;
+  /* height: 70px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.IRNAC-logo {
+  position: absolute;
+  left: 50px;
+  top: 40px;
+}
+
+.footer-social-icon {
+  height: 40px;
+}
+
+
+
+
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; }
+.col-sm2 {
+  display: inline;
+}
+
+
+.main-page{
+  background-image: url("../Images & Files/plane-service2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+}
+.message{
+  width: 30%;
+  position: relative;
+  top: 200px;
+  left: 120px;
+  display: inline;
+  -webkit-animation-duration: 7s !important;
+  animation-duration: 7s !important;
+}
+.msg{
+  position: absolute;
+  z-index: 1;
+  width: 95%;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  display: inline;
+  -webkit-animation-duration: 12s !important;
+  animation-duration: 12s !important;
+}
+.message img{
+  width: 80%;
+  opacity: .95;
+    /* position: absolute;*/
+    z-index: 0;
+}
+.wink{
+  width: 62px !important;
+  padding-left: 10px;
+}
